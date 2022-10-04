@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Afsoon - Porfolio</title>
+<!-- full-size monitor style sheet-->
+<link href="style.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
+<!-- tablet style sheet-->
+<link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:960px)">
+<!-- phone style sheet-->
+<link href="mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">    <title>Afsoon Negah's Portfolio</title> 
+</head>
+
+<body>
+
+    <div class="navbar">
+        <ul id="nav">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+            <li>
+                <a href="projects.html">Projects</a>
+            </li>
+            <li>
+                <a href="about.html">About me</a>
+            </li>
+        </ul>
+    </div>
+    <div id="wrapper">
+        <div class="container">
+            <h1>About Me</h1>
+            <img src="pictures/Turkey summer 2022.jpg" width="300px" height="400px">
+            <!-- <body> -->
+            <p class="Abtme">  
+                Hello my name is Afsoon I am a second year student at Ontario tech University,
+                I am currently enrolled in the networking and IT security program.
+            </p>
+            </video>
+            <h1>Watch My Video!<h1>
+                <video controls preload="auto" autoplay muted loop poster="gradpic.jpg">
+                    <source src="videos/gradvid.mp4" type="video/mp4">
+                </video>
+                <br>
+                <button onclick="playPause()">Play or pause the video</button>
+                <script>
+                    var myVideo=document.getElementById("video");
+                    function playPause()
+                    {
+                        if (myVideo.paused)
+                        myVideo.play();
+                        else myVideo.pause();
+                    }
+                </script>
+                </div>
+    </div>
+</body>
+<div class="footer">
+    <p>Ⓒ 2022 made by Afsoon Negah Afsoon.negah@ontariotechu.net</p>
+</div>
+
+</html>
